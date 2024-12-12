@@ -2,7 +2,9 @@
   "css.customData": ["./vscode.tailwind.json"],
   "eslint.validate": ["javascript", "javascriptreact", "astro", "typescript", "typescriptreact"],
   "files.associations": {
-    "*.mdx": "markdown"
+    "*.mdx": "markdown",
+    "": "",
+    ".astro": "html"
   },
   "prettier.documentSelectors": ["**/*.astro"],
   "[astro]": {
@@ -11,5 +13,6 @@
   "yaml.schemas": {
     "./.vscode/astrowind/config-schema.json": "/src/config.yaml"
   },
-  "eslint.useFlatConfig": true
+  "eslint.useFlatConfig": true,
+  "files.autoGuessEncoding": true
 }
