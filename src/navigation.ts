@@ -116,7 +116,7 @@ export const headerData = {
     },
   ],
   actions: [
-    { text: 'Registrar', href: '', target: '_blank' }, 
+    { variant: 'primary', text: 'Registrar', href: '', target: '_blank' },
     { text: 'Login', href: '', target: '_blank' }
   ],
 };

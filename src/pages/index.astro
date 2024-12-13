@@ -23,36 +23,28 @@ const metadata = {
 
   <Hero
     actions={[
-      {
+      { 
         variant: 'primary',
-        text: 'Get template',
+        text: 'Entrar na lista de espera', href: '#features',
+        icon: 'tabler:mail',
+      },
+      {
+        text: 'Assistir Demo',
         href: 'https://github.com/onwidget/astrowind',
         target: '_blank',
-        icon: 'tabler:download',
+        icon: 'tabler:video',
       },
-      { text: 'Learn more', href: '#features' },
     ]}
     image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
   >
     <Fragment slot="title">
-      Free template for <span class="hidden xl:inline">creating websites with</span>
-      <span class="text-accent dark:text-white highlight"> Astro 4.0</span> + Tailwind CSS
+      Obtenha uma experiência  inesquecível no gerenciamento do seu estúdio.
     </Fragment>
 
     <Fragment slot="subtitle">
-      <span class="hidden sm:inline">
-        <span class="font-semibold">AstroWind</span> is a free, customizable and production-ready template for Astro 4.0
-        + Tailwind CSS.</span
-      >
-      <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
-      Suitable for Startups, Small Business, SaaS websites, Professional Portfolios, Marketing websites, Landing Pages &
-      Blogs.
+      A inteligência artificial na InkFeel personaliza interações, otimiza operações e garante segurança, elevando a gestão de estudios a um novo nível de eficiência e faturamento.
     </Fragment>
   </Hero>
-
-  <!-- Note Widget ******************* -->
-
-  <Note />
 
   <!-- Features Widget *************** -->
 
